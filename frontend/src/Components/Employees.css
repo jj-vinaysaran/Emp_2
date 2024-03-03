@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.employees-container {
+    margin: 20px;
+}
+
+.employees-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filter-select {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.employees-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.employees-table th,
+.employees-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.update-btn,
+.delete-btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+}
+
+.update-form-container {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.update-form-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.update-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.update-input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.update-submit-btn,
+.update-cancel-btn {
+    padding: 8px 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-submit-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+}
+
+.update-cancel-btn {
+    background-color: #ccc;
+    color: #000;
+    border: none;
+}
